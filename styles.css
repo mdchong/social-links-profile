@@ -105,13 +105,13 @@ textarea:not([rows]) {
 /* Mobile: 375px
 Desktop: 1440px */
 
-/* * {
+* {
     outline: 1px solid skyblue;
 }
 
 *:nth-child(2) {
     outline: 1px solid red;
-} */
+}
 
 body {
     display: flex;
