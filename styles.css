@@ -93,6 +93,10 @@ textarea:not([rows]) {
     /* Font Family */
     --font-family: 'Inter', sans-serif;
 
+    /* Font Size */
+    --inter-14: 0.75rem;
+    --inter-24: 1.5rem;
+
     /* Font Weight */
     --inter-400: 400;
     --inter-600: 600;
@@ -110,39 +114,3 @@ Desktop: 1440px */
     outline: 1px solid red;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-family);
-    text-align: center;
-    min-height: 100svh;
-    /* background: var(--gray-900); */
-}
-
-.container {
-    max-width: 32rem;
-    padding: 2.625rem;
-}
-
-.avatar {
-    max-width: 5.25rem;
-    margin: 0 auto;
-}
-
-.name {
-    font-size: 1.5rem;
-    font-weight: var(--inter-700);
-}
-
-.avatar {
-    border-radius: 50%;
-}
-
-/* Social Link Buttons */
-.sns {
-    display: block;
-    text-decoration: none;
-    padding: 0.5rem;
-}
