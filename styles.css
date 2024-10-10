@@ -183,12 +183,6 @@ main {
     background: var(--green);
 }
 
-footer {
-    font-size: 0.75rem;
-    text-align: center;
-    margin-top: 1.5rem;
-}
-
 @media screen and (min-width: 376px) {
     .container {
         padding: 2.5rem;
