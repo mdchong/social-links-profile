@@ -141,13 +141,13 @@ main {
 
 .name {
     font-size: var(--inter-24);
-    font-weight: var(--inter-400);
+    font-weight: var(--inter-600);
     margin-top: 2rem;
 }
 
 .location {
     font-size: var(--inter-14);
-    font-weight: var(--inter-600);
+    font-weight: var(--inter-700);
     color: var(--green);
     margin-top: 0.5rem;
 }
